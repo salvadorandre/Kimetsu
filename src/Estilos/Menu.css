@@ -1,0 +1,30 @@
+.Menu-contenedor { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, orange, red);
+}
+
+.menu-nav { 
+    display: flex;
+    list-style: none;
+    gap: 75px;
+    padding: 45px;
+}
+
+.menu-nav li a { 
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 1s ease-in-out;
+}
+
+.menu-nav li a:hover { 
+    transform: translateX(3px);
+    background: white;
+    filter: drop-shadow(0 0 45px white);
+}

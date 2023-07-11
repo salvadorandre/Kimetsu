@@ -1,0 +1,15 @@
+.pie { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.redes-sociales { 
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    color: #fff;
+    font-size: 40px;
+}

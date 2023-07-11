@@ -1,0 +1,19 @@
+html, body { 
+  animation: 10s cosito infinite alternate linear;
+}
+
+@keyframes cosito { 
+  0% { 
+    background: url("https://a-static.besthdwallpaper.com/demon-slayer-kimetsu-no-yaiba-kyojuro-rengoku-tengen-uzui-wallpaper-2048x1152-91317_49.jpg");
+  }
+
+
+  50% { 
+    background: url("https://as02.epimg.net/meristation/imagenes/2021/06/22/videos/1624333697_539772_1624333859_noticia_normal.jpg");
+  }
+
+  100% { 
+    background: url("https://areajugones.sport.es/wp-content/uploads/2020/04/kimetsu-no-yaiba-wallpaper-pc-1-min.jpg");
+  }
+}
+
